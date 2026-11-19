@@ -18,6 +18,7 @@ let autoplayTimer;
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 function showSlide(index) {
+  
   activeIndex = (index + slides.length) % slides.length;
 
   slides.forEach((slide, slideIndex) => {
